@@ -1,4 +1,4 @@
-# wazero-h3
+# h3-wasm-go
 
 Go bindings for [Uber's H3](https://github.com/uber/h3) geospatial indexing library via WebAssembly using [wazero](https://wazero.io/).
 
@@ -15,7 +15,7 @@ H3 is a hexagonal hierarchical geospatial indexing system that allows you to ind
 ## Installation
 
 ```bash
-go get github.com/algysbuldakov/wazero-h3
+go get github.com/HoWoooD/h3-wasm-go
 ```
 
 ## Quick Start
@@ -27,7 +27,7 @@ import (
     "fmt"
     "log"
     
-    "github.com/algysbuldakov/wazero-h3/h3"
+    "github.com/HoWoooD/h3-wasm-go/h3"
 )
 
 func main() {
